@@ -17,6 +17,7 @@ body {
 /*Header/Navbar*/
 header {
   background-color: #3a2b27;
+  border-bottom: black solid 3px;
 }
 
 header nav {
@@ -26,6 +27,7 @@ header nav {
 header a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 
 header nav li {
@@ -37,6 +39,15 @@ header nav li {
 header a:hover {
   color: cyan;
   font-weight: bold;
+}
+
+header.current a {
+  color: cyan;
+}
+
+/*Products*/
+#products {
+  border-bottom: black solid 3px;
 }
 
 /*Form*/
