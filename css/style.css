@@ -1,0 +1,42 @@
+/*Global*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Header/Navbar*/
+header {
+  background-color: #3a2b27;
+}
+
+header nav {
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav li {
+  padding: 0 20px 15px 20px;
+  float: left;
+  list-style: none;
+}
+
+header a:hover {
+  color: cyan;
+  font-weight: bold;
+}
+
+/*Form*/
