@@ -16,8 +16,7 @@ body {
 
 /*Header/Navbar*/
 header {
-  background-color: #3a2b27;
-  border-bottom: black solid 3px;
+  background-color: #212120;
 }
 
 header nav {
@@ -25,6 +24,7 @@ header nav {
 }
 
 header a {
+  font-size: 18px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -47,7 +47,6 @@ header.current a {
 
 /*Products*/
 #products {
-  border-bottom: black solid 3px;
 }
 
 /*Form*/
@@ -58,7 +57,7 @@ header.current a {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #3a2b27;
+  background-color: #212120;
   color: white;
   bottom: 0;
   width: 100%;
